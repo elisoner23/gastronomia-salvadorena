@@ -87,25 +87,6 @@ git commit -m "fix: ajustes de responsive en móvil y accesibilidad del hamburge
 git commit -m "deploy: sitio publicado en GitHub Pages"
 ```
 
----
-
-## Cómo publicar en GitHub Pages
-
-```bash
-# 1. Crear repositorio en GitHub llamado: gastronomia-salvadorena
-
-# 2. Inicializar y subir archivos
-git init
-git add index.html styles.css script.js README.md
-git commit -m "feat: estructura inicial HTML con las 6 secciones obligatorias"
-git branch -M main
-git remote add origin https://github.com/elisoner23/gastronomia-salvadorena.git
-git push -u origin main
-
-# 3. Activar GitHub Pages
-# GitHub → Settings → Pages → Branch: main → / (root) → Save
-```
-
 La URL pública quedará disponible en:
 `https://elisoner23.github.io/gastronomia-salvadorena`
 

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sabores de El Salvador | Gastronomía Auténtica</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500&family=Bebas+Neue&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar">
+    <a href="#hero" class="nav-logo">Sabores <span>SV</span></a>
+    <ul class="nav-links">
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger" aria-label="Abrir menú" role="button" tabindex="0">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Menú móvil -->
+  <div class="overlay" id="overlay"></div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#nosotros"  class="mobile-link">Nosotros</a>
+    <a href="#servicios" class="mobile-link">Servicios</a>
+    <a href="#contacto"  class="mobile-link">Contacto</a>
+  </div>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <span class="hero-eyebrow">🇸🇻 Tradición · Sabor · Identidad</span>
+      <h1 class="hero-title">El alma de<br /><em>El Salvador</em><br />en cada plato</h1>
+      <p class="hero-sub">Descubre la cocina más auténtica de Centroamérica — pupusas, tamales, yuca frita y mucho más, elaborados con recetas familiares transmitidas por generaciones.</p>
+      <a href="#servicios" class="cta-btn">Explorar nuestra cocina</a>
+    </div>
+  </section>
+
+  <!-- ===== NOSOTROS ===== -->
+  <section id="nosotros">
+    <div class="nosotros-grid">
+      <div class="nosotros-img">
+        <img
+          src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&auto=format&fit=crop"
+          alt="Cocinera preparando pupusas en comal"
+          loading="lazy"
+        />
+        <div class="nosotros-badge">Desde 1998</div>
+      </div>
+      <div class="nosotros-text">
+        <span class="section-tag">Nuestra historia</span>
+        <h2 class="section-title">Raíces salvadoreñas, sabor sin igual</h2>
+        <p class="section-desc">Sabores SV nació en el mercado central de San Salvador con una misión simple: que cada persona que se siente a nuestra mesa sienta el calor de un hogar salvadoreño. Usamos ingredientes frescos del mercado local, maíz nixtamalizado de Sonsonate, loroco de Ahuachapán y frijoles negros cultivados en los valles del norte.</p>
+        <p class="section-desc" style="margin-top:1rem;">Nuestro equipo de cocineras —muchas de ellas herederas de recetas de sus abuelas— prepara cada platillo con la misma dedicación de siempre. No hay recetas secretas: solo tradición, amor y mucho picante si lo deseas.</p>
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-num">26+</div>
+            <div class="stat-label">Años de tradición</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">40+</div>
+            <div class="stat-label">Recetas auténticas</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">15k</div>
+            <div class="stat-label">Clientes satisfechos</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICIOS ===== -->
+  <section id="servicios">
+    <div class="servicios-intro">
+      <span class="section-tag">Lo que ofrecemos</span>
+      <h2 class="section-title">Experiencias gastronómicas únicas</h2>
+      <p class="section-desc">Desde clases de cocina hasta catering para eventos, te acercamos a la riqueza culinaria salvadoreña de múltiples formas.</p>
+    </div>
+    <div class="cards-grid">
+      <div class="card">
+        <div class="card-icon">🫓</div>
+        <div class="card-title">Pupusería Artesanal</div>
+        <p class="card-desc">Pupusas de loroco con queso, chicharrón, frijoles refritos y combinaciones especiales de temporada. Masa nixtamalizada a mano cada mañana.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🍲</div>
+        <div class="card-title">Platos Típicos del Día</div>
+        <p class="card-desc">Sopa de pata, caldo de res, yuca con chicharrón, tamales de elote y riguas. Menú rotativo que sigue la tradición de mercados locales.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">👩‍🍳</div>
+        <div class="card-title">Clases de Cocina</div>
+        <p class="card-desc">Aprende a hacer pupusas, curtido y salsas de tomate artesanal en nuestras clases grupales o privadas. Cupos limitados para una experiencia íntima.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🎉</div>
+        <div class="card-title">Catering para Eventos</div>
+        <p class="card-desc">Llevamos la gastronomía salvadoreña a tu boda, cumpleaños o evento corporativo. Menús personalizados para hasta 500 personas.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🛍️</div>
+        <div class="card-title">Tienda de Productos</div>
+        <p class="card-desc">Salsa de loroco, curtidos envasados, masa nixtamalizada lista para usar y semillas criollas para llevar el sabor a tu casa.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">📖</div>
+        <div class="card-title">Tours Gastronómicos</div>
+        <p class="card-desc">Recorridos por mercados de San Salvador, Suchitoto y Santa Ana con guía experto. Descubre ingredientes, productores y restaurantes escondidos.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FORMULARIO ===== -->
+  <section id="contacto">
+    <div class="form-wrap">
+      <div class="form-info">
+        <span class="section-tag">Reservaciones y consultas</span>
+        <h2 class="section-title">¿Listo para saborear El Salvador?</h2>
+        <p class="section-desc">Escríbenos para reservar una mesa, consultar sobre clases de cocina o planificar el catering de tu evento. Respondemos en menos de 24 horas.</p>
+        <ul>
+          <li><span class="icon">📍</span> Mercado Central, San Salvador, El Salvador</li>
+          <li><span class="icon">📞</span> +503 2222-3344</li>
+          <li><span class="icon">📧</span> hola@saboressv.com</li>
+          <li><span class="icon">🕐</span> Lun–Dom: 7:00 am – 8:00 pm</li>
+        </ul>
+      </div>
+
+      <form id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nombre">Nombre *</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" />
+            <span class="error-msg" id="err-nombre">Por favor ingresa tu nombre.</span>
+          </div>
+          <div class="form-group">
+            <label for="apellido">Apellido *</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Tu apellido" />
+            <span class="error-msg" id="err-apellido">Por favor ingresa tu apellido.</span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Correo electrónico *</label>
+          <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" />
+          <span class="error-msg" id="err-email">Ingresa un correo electrónico válido.</span>
+        </div>
+        <div class="form-group">
+          <label for="telefono">Teléfono *</label>
+          <input type="tel" id="telefono" name="telefono" placeholder="7000-0000" />
+          <span class="error-msg" id="err-telefono">Ingresa un número de teléfono válido (8 dígitos).</span>
+        </div>
+        <div class="form-group">
+          <label for="servicio">Servicio de interés *</label>
+          <select id="servicio" name="servicio">
+            <option value="">-- Selecciona una opción --</option>
+            <option>Pupusería Artesanal</option>
+            <option>Platos Típicos del Día</option>
+            <option>Clases de Cocina</option>
+            <option>Catering para Eventos</option>
+            <option>Tienda de Productos</option>
+            <option>Tours Gastronómicos</option>
+          </select>
+          <span class="error-msg" id="err-servicio">Selecciona un servicio.</span>
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje *</label>
+          <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos sobre tu consulta, evento o reserva…"></textarea>
+          <span class="error-msg" id="err-mensaje">El mensaje debe tener al menos 20 caracteres.</span>
+        </div>
+        <button type="submit" class="submit-btn">Enviar mensaje 🌽</button>
+        <div class="success-msg" id="successMsg">
+          🎉 ¡Gracias por contactarnos! Tu mensaje ha sido recibido. Te responderemos en menos de 24 horas con todos los detalles. ¡Hasta pronto, amigo!
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#hero" class="nav-logo">Sabores <span>SV</span></a>
+        <p>Preservando y celebrando la gastronomía salvadoreña desde 1998. Porque cada pupusa cuenta una historia.</p>
+        <div class="social-links" style="margin-top:1rem;">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">📸</a>
+          <a href="#" aria-label="TikTok">♪</a>
+          <a href="#" aria-label="WhatsApp">💬</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="#hero">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Servicios</h4>
+        <ul>
+          <li><a href="#servicios">Pupusería Artesanal</a></li>
+          <li><a href="#servicios">Clases de Cocina</a></li>
+          <li><a href="#servicios">Catering</a></li>
+          <li><a href="#servicios">Tours Gastronómicos</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Sabores SV · San Salvador, El Salvador · Diseñado con 🫓 y tradición salvadoreña</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

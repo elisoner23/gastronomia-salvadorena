@@ -74,7 +74,7 @@ gastronomia-salvadorena/
 
 ---
 
-## 📝 Historial de commits
+## Historial de commits
 
 ```bash
 git commit -m "feat: estructura inicial HTML con las 6 secciones obligatorias"
@@ -92,7 +92,7 @@ La URL pública quedará disponible en:
 
 ---
 
-## 👤 Créditos
+## Créditos
 
 - **Desarrollado por**: [Erick García]
 - **Temática**: Gastronomía de El Salvador 🇸🇻
